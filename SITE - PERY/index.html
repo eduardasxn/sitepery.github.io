@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERY</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>PERY GUARANY BLACKMAN</h1>
+        <nav>
+            <ul>
+                <li><a href="#minhaescola">Minha Escola</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#espacos">Espaços Educacionais</a></li>
+                <li><a href="#gremio">Grêmio Estudantil</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>   
+
+    <!-- Banner com foto -->
+    <section id="banner">
+        <div class="banners">
+            <div class="meu banner">
+                <img src="foto1.png">
+            </div>
+    </section>
+
+    <!-- Seção da Minha Escola -->
+    <section id="Organograma">
+        <div class="minha">
+        <h2>Minha Escola</h2>
+        <p>A Escola Pery Guarany Blackman é uma instituição de ensino público localizada em Itu, São Paulo, no bairro Vila Roma. Fundada em 13 de junho de 1988, a escola oferece Educação Fundamental e Médio, atendendo entre 501 e 1000 alunos. Sua administração é estadual e está sujeita às regulamentações do Conselho de Educação. O compromisso da Escola Pery Guarany Blackman é com uma educação de qualidade.</p>
+        </div>
+        <div class="escola">
+            <img src="organograma.png" class="ajuste-imagem">
+        </div>
+    </section>
+
+    <!-- Seção Sobre o Artista -->
+    <section id="sobre">
+       <div class="text">
+        <h2>Quem foi Pery Guarany?</h2>
+        <p>Pery Guarany Blackman nasceu em Itu aos 29 de março de 1900. Filho do artista italiano Demétrio Ligotti Blackman e D. Carolina Vaccari Blackman, realizou seu estudo primário no Grupo Escolar Cesário Mota, de Itu e os complementares no Liceu de Artes o Ofícios (1918) e na Scuola di disegno, pittura e plástica “Michelangelo Buonarroti” (1919), especializada em desenhos e pinturas a óleo, aquarela, guache e pastel, modelagem e esculturas, ambas situadas em São Paulo.</p>
+       </div> 
+            <div class= "sobre">
+                <img src ="pery.jpeg">
+            </div>
+    </section>
+
+    <!-- Seção Espaços Educacionais -->
+    <section id="espacos">
+        <div class="fotos">
+            <h2>Espaços Educacionais</h2>
+            <p>Nossos espaços incluem pátio de convivência, quadra, área verde, salas com TV, multimídia e muito mais.</p>
+            
+            <!-- Carrossel de fotos -->
+            <div class="carousel">
+                <button class="carousel-btn prev" onclick="prevSlide()">&#10094;</button>
+                <div class="carousel-slides">
+                    <img src="img1.jpg" alt="Espaço 1">
+                    <img src="img2.jpg" alt="Espaço 2">
+                    <img src="img3.jpg" alt="Espaço 3">
+                </div>
+                <button class="carousel-btn next" onclick="nextSlide()">&#10095;</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção do Grêmio Estudantil -->
+    <section id="estudantes">
+        <div class="gremio">
+        <h2>Grêmio Estudantil</h2>
+        <p>O grêmio estudantil é a oportunidade do estudante ter voz ativa na administração da escola, apresentando ideias, sugestões e críticas. Contribui para a formação e enriquecimento educacional, representando os primeiros passos na vida social, cultural e política do estudante. </p>
+        <div class="chapa">
+        <h3> CHAPA VIVA </h3>
+        <p> Posse em 04/2024</p>
+        </div>
+        </div>
+        <div class= "estudantil">
+            <img src ="gremio.jpg" class="ajuste-imagem">
+        </div>
+    
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Email: e042389a@educacao.sp.gov.br </p>
+        <p> Endereço: R MONACO , SN - VILA ROMA - ITU - CEP 13310441 </p>
+        <p>Telefone: (11) 4023-1409</p>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; EE PERY GUARANY BLACKMAN. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
